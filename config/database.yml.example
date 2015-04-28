@@ -3,7 +3,6 @@ default: &default
 
 development:
   <<: *default
-  # database: store_production_24032014
   database: s_viewer_dev
 
 # Warning: The database defined as "test" will be erased and
